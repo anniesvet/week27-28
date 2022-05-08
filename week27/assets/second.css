@@ -1,0 +1,13 @@
+.tariff-name {
+    display: flex;
+
+    margin-bottom: 1px;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: #1a7012;
+    color: white;
+}

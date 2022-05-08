@@ -1,0 +1,95 @@
+
+
+.App {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(244,245,245);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+
+  padding: 100px;
+
+  width: 750px;
+}
+
+.tariff-card {
+  padding: 1px;
+}
+
+.tariff-name {
+  display: flex;
+
+  margin-bottom: 1px;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+
+  font-size: 15px;
+  font-weight: bolder;
+  color: white;
+  background-color: rgb(30, 164, 164);
+}
+
+.tariff-price {
+  display: flex;
+
+  margin-bottom: 1px;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 27px;
+  color: white;
+  font-weight: bolder;
+  background-color: rgb(30, 164, 164);
+}
+
+.tariff-speed {
+  display: flex;
+
+  margin-bottom: 1px;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+
+  font-size: 13px;
+  color: #525252;
+
+  background-color: rgb(242, 240, 240);
+}
+
+.tariff-addInfo {
+  display: flex;
+
+  margin-bottom: 1px;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  font-size: 13px;
+  color: #525252;
+  line-height: 30px;
+  background-color: rgb(238, 236, 236);
+}
+
+.big{
+  height: 300px;
+}
+
+.selected {
+  margin: 10px;
+  width: 300px;
+}
+
+.tariff-button {
+  width: 180px;
+  height: 30px;
+  background: none;
+  background-color: rgb(220, 220, 220);
+  font-size: 15px;
+}
+
+
+
